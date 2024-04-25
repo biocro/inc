@@ -1,3 +1,7 @@
+# biocro/boost version 1.0.1
+
+- This version shortens paths further to comply with CRAN requirements
+
 # biocro/boost version 1.0.0
 
 - This version is based on version 1.71.0 of the boost libraries, but changes

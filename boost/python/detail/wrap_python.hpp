@@ -22,7 +22,7 @@
 
 #ifdef _DEBUG
 # ifndef BOOST_DEBUG_PYTHON
-#  ifdef _MSC_VER  
+#  ifdef _MSC_VER
     // VC8.0 will complain if system headers are #included both with
     // and without _DEBUG defined, so we have to #include all the
     // system headers used by pyconfig.h right here.
@@ -166,7 +166,8 @@ typedef int pid_t;
 // Python.h header uses `register` keyword until Python 3.4
 #if BOOST_PYTHON_GCC_HAS_WREGISTER
 # pragma GCC diagnostic push
-# pragma GCC diagnostic ignored "-Wregister"
+# pragma GCC diagnostic\
+ ignored "-Wregister"
 #elif defined(_MSC_VER)
 # pragma warning(push)
 # pragma warning(disable : 5033)  // 'register' is no longer a supported storage class
