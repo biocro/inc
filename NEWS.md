@@ -1,4 +1,4 @@
-# biocro/boost version 1.0.1
+# biocro/boost version 1.1.0
 
 - Updated the boost libraries from version 1.71.0 to 1.89.0
 
