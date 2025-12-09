@@ -16,8 +16,3 @@ charset = utf-8
 # indentation
 [*.{yml,yaml,Rd,Rnw,md}]
 indent_size = 2
-
-# Makefiles require tabs
-[{Makefile,makefile,Makevars,Makevars.win}]
-indent_style = tab
-indent_size = tab
